@@ -35,7 +35,7 @@ You can stage multiple files by repeating this action.
 
 ---
 
-## Commit File
+## Git Commit File
 Stage selected file and commit all staged files with a commit message.
 
 **Usage**
@@ -45,7 +45,7 @@ Stage selected file and commit all staged files with a commit message.
 
 ```
 
-Commit File
+Git Commit File
 
 ```
 
@@ -70,7 +70,7 @@ Typical workflow using the extension:
 
 1. Right-click files → **Git Add File**
 2. Stage multiple files
-3. Right-click one file → **Commit File**
+3. Right-click one file → **Git Commit File**
 4. Enter commit message
 5. Commit is created
 
@@ -113,6 +113,8 @@ This extension currently does not add any custom settings.
 - Added git repo check to the context menu buttons
 - Renamed the 'Commit File' button to 'Git Commit File'
 - Separated the git buttons into a group
+- Renamed extension to 'Context Commit'
+- Added icon
 
 ## 1.0.0
 
