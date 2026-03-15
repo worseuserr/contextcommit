@@ -1,9 +1,9 @@
 {
   "name": "contextcommit",
-  "displayName": "Context Commit Button",
+  "displayName": "Context Commit",
   "description": "Commit changes to files by right-clicking them in the explorer.",
   "publisher": "worseuserr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "icon.png",
   "repository": {
     "type": "git",
