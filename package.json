@@ -19,23 +19,25 @@
   "contributes": {
     "commands": [
       {
-        "command": "commitFile.commit",
-        "title": "Commit File"
+        "command": "contextcommit.commit",
+        "title": "Git Commit File"
       },
       {
-        "command": "commitFile.add",
+        "command": "contextcommit.add",
         "title": "Git Add File"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "commitFile.add",
-          "group": "navigation"
+          "command": "contextcommit.add",
+          "group": "0_contextcommit@1",
+          "when": "gitOpenRepositoryCount != 0"
         },
         {
-          "command": "commitFile.commit",
-          "group": "navigation"
+          "command": "contextcommit.commit",
+          "group": "0_contextcommit@2",
+          "when": "gitOpenRepositoryCount != 0"
         }
       ]
     }

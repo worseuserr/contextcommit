@@ -12,7 +12,7 @@ function run(cmd: string, cwd: string) {
 
 export function activate(context: vscode.ExtensionContext) {
 
-    const addCmd = vscode.commands.registerCommand('commitFile.add', async (uri: vscode.Uri) => {
+    const addCmd = vscode.commands.registerCommand('contextcommit.add', async (uri: vscode.Uri) => {
 
         const cwd = vscode.workspace.workspaceFolders?.[0].uri.fsPath;
         if (!cwd) {
@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-    const commitCmd = vscode.commands.registerCommand('commitFile.commit', async (uri: vscode.Uri) => {
+    const commitCmd = vscode.commands.registerCommand('contextcommit.commit', async (uri: vscode.Uri) => {
 
         const cwd = vscode.workspace.workspaceFolders?.[0].uri.fsPath;
         if (!cwd) {
