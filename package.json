@@ -4,6 +4,7 @@
   "description": "Commit changes to files by right-clicking them in the explorer.",
   "publisher": "worseuserr",
   "version": "1.0.0",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/worseuserr/contextcommit.git"
