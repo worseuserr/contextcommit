@@ -102,6 +102,7 @@ This extension currently does not add any custom settings.
 # Known Issues
 
 - The extension commits staged files from the current workspace root.
+- Needs error handling when git commands return an error.
 
 ---
 
