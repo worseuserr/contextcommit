@@ -4,6 +4,10 @@
   "description": "Commit changes to files by right-clicking them in the explorer.",
   "publisher": "worseuserr",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worseuserr/contextcommit.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
