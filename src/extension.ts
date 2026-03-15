@@ -4,8 +4,10 @@ import { exec } from 'child_process';
 function run(cmd: string, cwd: string) {
     return new Promise<string>((resolve, reject) => {
         exec(cmd, { cwd }, (err, stdout, stderr) => {
-            if (err) reject(stderr || err.message);
-            else resolve(stdout);
+            if (err)
+				reject(stderr || err.message);
+            else
+				resolve(stdout);
         });
     });
 }
@@ -42,7 +44,8 @@ export function activate(context: vscode.ExtensionContext) {
             prompt: "Commit message"
         });
 
-        if (!message) return;
+        if (!message)
+			return;
 
         const file = uri.fsPath;
 
